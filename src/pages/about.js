@@ -1,10 +1,11 @@
 import React from 'react'
+import { UserCard } from '../components';
 
 const About = props => {
   return (
-    <div>
+    <UserCard>
       About
-    </div>
+    </UserCard>
   )
 }
 

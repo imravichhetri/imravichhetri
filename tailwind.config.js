@@ -59,8 +59,10 @@ module.exports = {
         }
     },
     colors: {
-      'primary-white': 'rgba(255,255,255,1)',
-      'secondary-yellow': 'rgb(252, 201, 93)'
+      'primary-white': 'var(--primary-white)',
+      'secondary-white': 'var(--secondary-white)',
+      'secondary-yellow': 'var(--secondary-yellow)',
+      'tertiary-yellow': 'var(--tertiary-yellow)'
     },
     screens: {
       '2xl': { max: '1536px' },
