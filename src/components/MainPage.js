@@ -8,14 +8,5 @@ const Main = styled.div`
   align-items: center;
   background: url(bg-canvas.jpeg) no-repeat center center fixed;
 `;
-// const MainPage = props => {
-//   return (
-//     <Main>
-//       {props.children}
-//     </Main>
-//   )
-// }
-
 
 export default Main
-// export default MainPage

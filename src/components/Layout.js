@@ -5,10 +5,10 @@ import ContainerCard from "./ContainerCard";
 const Layout = props => {
   return (
     <MainPage>
-    <ContainerCard>
-      {props.children}
-    </ContainerCard>
-  </MainPage>
+      <ContainerCard>
+        {props.children}
+      </ContainerCard>
+    </MainPage>
   )
 }
 

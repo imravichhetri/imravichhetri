@@ -1,3 +1,6 @@
+:root {
+  --secondary-yellow: rgb(252, 201, 93);
+}
 html,
 body {
   height: 100vh;
@@ -10,8 +13,27 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@font-face {
+  font-family: "2Line";
+  src: url(../../static/fonts/two-line.ttf) format("truetype");
+}
 
 #___gatsby,
 #gatsby-focus-wrapper {
   height: 100%;
+}
+
+.two-line-font {
+  font-family: "2Line";
+}
+
+.secondary-yellow {
+  color: var(--secondary-yellow);
+}
+.full-height {
+  height: 100%;
+}
+.text-center {
+  text-align: center;
 }

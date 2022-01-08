@@ -1,40 +1,31 @@
 import * as React from "react"
-import ContainerCard from "../components/ContainerCard";
-import MainPage from "../components/MainPage"
+import styled from "styled-components";
+import {
+  Text,
+  FlexContainer,
+  FlexElement
+} from "../components";
 import '../styles/style.css';
 
-import { Router } from "@reach/router"
-
-const SomeSubPage = props => {
-  return <div>Hi from SubPage with id: {props.id}</div>
-}
-
-const App = () => (
-  <MainPage>
-    <ContainerCard>
-      {/* <Router>
-        // ...dynamic routes here
-        <SomeSubPage path="" />
-      </Router> */}
-      Ella
-    </ContainerCard>
-  </MainPage>
-)
-
-// export default App
-
-// markup
-const IndexPage = () => {
+const NameText = styled(Text)`
+  /* color: var(--secondary-yellow); */
+  position: absolute;
+  right: 10%;
+`
+const App = () => {
   return (
-    // <MainPage>
-    //   <ContainerCard>
-    //     <div>
-
-    //     </div>
-    //   </ContainerCard>
-    // </MainPage>
-    <div>Ella</div>
+    <FlexContainer hCenter vCenter className="full-height">
+      <FlexElement hCenter column position="relative">
+        <NameText>
+          <div>HI There!</div>
+          <Text large>
+            I'm <span className="secondary-yellow two-line-font">ravi</span>
+          </Text>
+        </NameText>
+      </FlexElement>
+      <FlexElement>Photo</FlexElement>
+    </FlexContainer>
   )
 }
 
-export default IndexPage
+export default App
