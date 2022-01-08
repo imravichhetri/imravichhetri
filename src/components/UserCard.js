@@ -20,7 +20,7 @@ const UserCard = ({
           <Navigation/>
         </div>
       </div>
-      <div className="flex-auto">
+      <div className="flex-auto mx-10">
         {children}
       </div >
     </div>
