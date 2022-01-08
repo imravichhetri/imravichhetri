@@ -12,28 +12,29 @@ const SomeSubPage = props => {
 const App = () => (
   <MainPage>
     <ContainerCard>
-      <Router>
+      {/* <Router>
         // ...dynamic routes here
         <SomeSubPage path="" />
-      </Router>
+      </Router> */}
       Ella
     </ContainerCard>
   </MainPage>
 )
 
-export default App
+// export default App
 
 // markup
 const IndexPage = () => {
   return (
-    <MainPage>
-      <ContainerCard>
-        <div>
+    // <MainPage>
+    //   <ContainerCard>
+    //     <div>
 
-        </div>
-      </ContainerCard>
-    </MainPage>
+    //     </div>
+    //   </ContainerCard>
+    // </MainPage>
+    <div>Ella</div>
   )
 }
 
-// export default IndexPage
+export default IndexPage
