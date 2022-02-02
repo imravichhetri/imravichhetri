@@ -3,6 +3,7 @@
   --secondary-white: rgba(255, 255, 255, 0.8);
   --secondary-yellow: rgb(252, 201, 93);
   --tertiary-yellow: rgba(219, 151, 15, 0.877);
+  --primary-dark: rgb(3, 18, 66);
 }
 html,
 body {

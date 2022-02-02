@@ -49,20 +49,26 @@ module.exports = {
   plugins: [],
   theme: {
     fontFamily: {
-      helvetica: [ 'Helvetica', 'Arial']
+      helvetica: [ 'Helvetica', 'Arial'],
+      typewriter: [ 'Special Elite', 'Arial']
+    },
+    listStyleType: {
+      disc: 'disc'
     },
     extend: {
       maxWidth: {
         '4': '4px',
         '10':'10px',
-        '160':'160px'
-        }
+        '160':'160px',
+        "1/3": "30%"
+      }
     },
     colors: {
       'primary-white': 'var(--primary-white)',
       'secondary-white': 'var(--secondary-white)',
       'secondary-yellow': 'var(--secondary-yellow)',
-      'tertiary-yellow': 'var(--tertiary-yellow)'
+      'tertiary-yellow': 'var(--tertiary-yellow)',
+      'primary-dark': 'var(--primary-dark)'
     },
     screens: {
       '2xl': { max: '1536px' },

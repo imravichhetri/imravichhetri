@@ -2,7 +2,35 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "online-portfolio",
-    intro: 'I’m 27 years old engineer , who is working from home right now and working with a company called Innovaccer Analytics Pvt. Ltd.  I’ve also worked with various startup like Dailyhunt and Blackbuck. I love web development and I’ve provided my help as a consultant to various startups. I’ve good hands on JavaScript, ReactJS, NodeJS, ExpressJS, GraphQL , Apollo Client, Redux, etc.'
+    intro: 'I’m 27 years old engineer located in India, who is working from home right now and working with a company called Innovaccer Analytics Pvt. Ltd.  I’ve also worked with various startup like Dailyhunt and Blackbuck. I love web development and I’ve provided my help as a consultant to various startups. I’ve good hands on JavaScript, ReactJS, NodeJS, ExpressJS, GraphQL , Apollo Client, Redux, etc.',
+    experiences: [
+      {
+        year: "2021 - Present",
+        designation: "Senior Software Engineer",
+        responsiblities: [
+          "Helped in adding various user type to the system, like MD, Specialist.",
+          "Migrated hard coded logic to config driven UI which reduced the file size by 10%.",
+          "Helped in finding best resources for the organisation by taking interviews."
+        ]
+      },
+      {
+        year: "2019 - 2021",
+        designation: "Software Engineer",
+        responsiblities: [
+          "Single handedly revamped old platform used by employees that was built using Angular v1.4 to new platform using React v16 for smooth creation and completion of orders.",
+          "Integrated CI/CD for smoother deployment of web app.", 
+          "Increased the performance of web application by 20-30%."
+        ]
+      },
+      {
+        year: "2017 - 2019",
+        designation: "Software Engineer",
+        responsiblities: [
+          "Designed and developed UI for notification content feeder sub-system which serves breaking news and real-time trending news to notification engine which helped in increasing DAU by 5%.",
+          "Mentored new interns throughout their internship journey, giving them advice about careers."
+        ]
+      }
+    ]
   },
   plugins: [
     'gatsby-plugin-postcss',
