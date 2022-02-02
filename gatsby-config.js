@@ -3,6 +3,14 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "online-portfolio",
     intro: 'I’m 27 years old engineer located in India, who is working from home right now and working with a company called Innovaccer Analytics Pvt. Ltd.  I’ve also worked with various startup like Dailyhunt and Blackbuck. I love web development and I’ve provided my help as a consultant to various startups. I’ve good hands on JavaScript, ReactJS, NodeJS, ExpressJS, GraphQL , Apollo Client, Redux, etc.',
+    educations: [
+      {
+        year: "2013 - 2017",
+        designation: "B.Tech (Computer Science and Engineering)",
+        responsiblities: [
+        ]
+      },
+    ],
     experiences: [
       {
         year: "2021 - Present",

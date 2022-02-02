@@ -6,7 +6,7 @@ const Main = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(bg-canvas.jpeg) no-repeat center center fixed;
+  background: url('/bg-canvas.jpeg') no-repeat center center fixed;
 `;
 
 export default Main
