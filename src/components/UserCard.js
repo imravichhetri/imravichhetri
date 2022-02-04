@@ -20,7 +20,7 @@ const UserCard = ({
           <Navigation/>
         </div>
       </div>
-      <div className="w-3/4 mx-10">
+      <div className="w-3/4 mx-10 overflow-auto">
         {children}
       </div >
     </div>

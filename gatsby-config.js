@@ -38,6 +38,38 @@ module.exports = {
           "Mentored new interns throughout their internship journey, giving them advice about careers."
         ]
       }
+    ],
+    contacts: [
+      {
+        alt: "Email",
+        text: "imravichhetri@gmail.com",
+        icon: `${__dirname}/src/images/icons/mail.svg`,                                                                 
+        href: "mailto:imravichhetri@gmail.com",
+      },
+      {
+        alt: "Phone",
+        text: "+91-7017872344",
+        icon: `${__dirname}/src/images/icons/phone.svg`,                                                                   
+        href: "tel:+917017872344",
+      },
+      {
+        alt: "LinkedIn",
+        text: "https://www.linkedin.com/in/imravichhetri",
+        icon: `${__dirname}/src/images/icons/linkedin.svg` ,
+        href: "https://www.linkedin.com/in/imravichhetri",
+      },
+      {
+        alt: "Instagram",
+        text: "@foodie.backpacker",
+        icon: `${__dirname}/src/images/icons/instagram.svg`,
+        href: "https://instagram.com/foodie.backpacker"                                                                   
+      },
+      {
+        alt: "Github",
+        text: "@imravichhetri",
+        icon: `${__dirname}/src/images/icons/github.svg`,                                                                  
+        href: "https://github.com/imravichhetri"                                                                   
+      }
     ]
   },
   plugins: [
