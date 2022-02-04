@@ -1,0 +1,62 @@
+:root {
+  --primary-white: rgba(255, 255, 255, 1);
+  --secondary-white: rgba(255, 255, 255, 0.8);
+  --secondary-yellow: rgb(252, 201, 93);
+  --tertiary-yellow: rgba(219, 151, 15, 0.877);
+  --primary-dark: rgb(3, 18, 66);
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@font-face {
+  font-family: "2Line";
+  src: url(../../static/fonts/two-line.ttf) format("truetype");
+}
+
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+.two-line-font {
+  font-family: "2Line";
+}
+
+.secondary-yellow {
+  color: var(--secondary-yellow);
+}
+.full-height {
+  height: 100%;
+}
+.text-center {
+  text-align: center;
+}
+
+.nav-item {
+  position: relative;
+}
+.nav-item:first-child::before {
+  content: "";
+  border-left: 3px solid var(--tertiary-yellow);
+  position: relative;
+  top: -1.5rem;
+  left: 46%;
+}
+.nav-item::after {
+  content: "";
+  border-right: 3px solid var(--tertiary-yellow);
+  top: 1.5rem;
+  position: relative;
+  right: 50%;
+  height: 5rem;
+}
