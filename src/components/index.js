@@ -10,3 +10,4 @@ export {default as Navigation} from "./Navigation";
 export {default as StatsGrid} from "./StatsGrid";
 export {default as Chip} from "./Chip";
 export {default as ExperienceCard} from "./ExperienceCard";
+export {default as ContactList} from "./ContactList";

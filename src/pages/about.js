@@ -5,6 +5,7 @@ import { UserCard, UserHeader, StatsGrid } from '../components';
 const About = ({
   data
 }) => {
+  console.log(data,'-data--');
   return (
     <UserCard>
       <div>

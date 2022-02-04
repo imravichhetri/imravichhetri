@@ -1,4 +1,4 @@
-import { StaticImage } from 'gatsby-plugin-image';
+import { GatsbyImage, getImage, getSrc, StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
 const ContactList = ({
@@ -9,11 +9,14 @@ const ContactList = ({
     text,
     href,
     alt
-  }) => (
-    <div className="inline-block w-[50%] mt-5">
+  }) => {
+    const image = getImage(icon)
+    console.log(icon,'icon--')
+    return (
+    <div className="inline-block w-[50%] mt-5" key={icon}>
       <div className="flex items-center">
-        <StaticImage
-          src={icon}
+        <GatsbyImage
+          image={image}
           alt={alt}
           placeholder="blurred"
           width="50"
@@ -22,7 +25,8 @@ const ContactList = ({
           <a href={href} className="cursor-pointer">{text}</a>
         </div>
     </div>
-  ));
+  )
+    });
 };
 
 
