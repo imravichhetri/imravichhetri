@@ -1,6 +1,5 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react'
-import ContactList from '../components/ContactList';
 import { graphql } from 'gatsby';
 import { ContactList, UserCard, UserHeader } from '../components';
 
