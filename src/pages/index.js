@@ -7,7 +7,7 @@ import {
   FlexElement
 } from "../components";
 import { StaticImage } from "gatsby-plugin-image";
-import '../styles/style.css';
+// import '../styles/style.css';
 
 const NameText = styled(Text)`
   /* color: var(--secondary-yellow); */
