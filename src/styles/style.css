@@ -20,7 +20,7 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 @font-face {
   font-family: "2Line";
-  src: url(../../static/fonts/two-line.ttf) format("truetype");
+  src: url("../../static/fonts/two-line.ttf") format("truetype");
 }
 
 #___gatsby,
