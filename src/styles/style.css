@@ -18,10 +18,7 @@ body {
   box-sizing: border-box;
 }
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
-@font-face {
-  font-family: "2Line";
-  src: url("../../static/fonts/two-line.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap");
 
 #___gatsby,
 #gatsby-focus-wrapper {
@@ -29,7 +26,8 @@ body {
 }
 
 .two-line-font {
-  font-family: "2Line";
+  /* font-family: "2Line"; */
+  font-family: "Fascinate Inline", cursive;
 }
 
 .secondary-yellow {
@@ -59,4 +57,12 @@ body {
   position: relative;
   right: 50%;
   height: 5rem;
+}
+
+.usercard-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
 }

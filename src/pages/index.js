@@ -24,7 +24,7 @@ const App = ({
         <NameText>
           <div className="font-helvetica uppercase text-xl font-bold">HI There!</div>
           <Text large>
-            I'm <span className="text-secondary-yellow two-line-font">ravi</span>
+            I'm <span className="text-secondary-yellow two-line-font">Ravi</span>
           </Text>
           <div className="bg-secondary-yellow rounded-md px-2 py-1 inline-block">Software Engineer | Traveller | Foodie</div>
           <div className="text-sm my-2">
