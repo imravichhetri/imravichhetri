@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types"
 
 export default function HTML(props) {
   return (
@@ -11,6 +11,10 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet"></link>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
