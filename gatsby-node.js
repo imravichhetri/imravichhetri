@@ -18,3 +18,7 @@ const path = require('path');
 //   }
 // }
 
+
+// exports.replaceRenderer = ({ replaceBodyHTMLString }) => {
+//   replaceBodyHTMLString('<div id="___gatsby"></div>');
+// };
