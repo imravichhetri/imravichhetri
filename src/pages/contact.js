@@ -4,7 +4,6 @@ import { graphql } from 'gatsby';
 import { ContactList, UserCard, UserHeader } from '../components';
 
 const Contact = ({data}) => {
-  console.log(data,'data---');
   return (
     <UserCard>
       <UserHeader>Contact</UserHeader>
