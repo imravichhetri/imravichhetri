@@ -5,7 +5,6 @@ const path = require('path');
 
 //   // page.matchPath is a special key that's used for matching pages
 //   // only on the client.
-//   console.log(page,'page')  
 //   if (page.path.match(/^\//)) {
 //   // page.matchPath = "/*"
 //     // Update the page.

@@ -11,7 +11,6 @@ const ContactList = ({
     alt
   }) => {
     const image = getImage(icon)
-    console.log(icon,'icon--')
     return (
     <div className="inline-block w-[50%] mt-5" key={icon}>
       <div className="flex items-center">
