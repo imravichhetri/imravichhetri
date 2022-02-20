@@ -5,7 +5,7 @@ const UserCard = ({
   children
 }) => {
   return (
-    <div className="h-full flex flex-row">
+    <div className="h-full flex flex-row bg-primary-white">
       <div className="w-1/4 d-flex flex-col">
         <div className="h-1/3 relative">
           <StaticImage

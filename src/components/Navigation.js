@@ -36,18 +36,9 @@ const Navigation = props => {
             <Link 
               to={nav.path} 
               className="cursor-pointer hover:text-secondary-white" 
-              cover 
+              swipe 
               direction={direction[Math.floor(Math.random() * 4)]} 
-              duration={2}
-              bg="
-              url(https://picsum.photos/1080/566)
-              center / cover   /* position / size */
-              no-repeat        /* repeat */
-              fixed            /* attachment */
-              padding-box      /* origin */
-              content-box      /* clip */
-              white            /* color */
-              "
+              duration={1.5}
               >
               {nav.title}
             </Link>

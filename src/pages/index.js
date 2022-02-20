@@ -1,5 +1,6 @@
-import { graphql, Link, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react"
+import Link from "gatsby-plugin-transition-link/AniLink";
 
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -8,7 +9,7 @@ const App = ({
 }) => {
   return (
     <div className="flex h-full justify-center items-center">
-      <div className="flex relative justify-center flex-col h-full flex-1">
+      <div className="flex relative justify-center flex-col h-full flex-1 bg-primary-white">
         <span className="absolute right-1/10 left-1/4">
           <div className="font-helvetica uppercase text-xl font-bold">HI There!</div>
             <div className="font-typewriter text-6xl">
@@ -19,7 +20,13 @@ const App = ({
             {data?.site?.siteMetadata?.intro??''}
           </div>
           <div className="mt-6">
-            <Link to="/about" className="cursor-pointer bg-secondary-yellow font-helvetica rounded-full text-primary-white uppercase text-sm p-2">
+            <Link 
+              to="/about" 
+              className="cursor-pointer bg-secondary-yellow font-helvetica rounded-full text-primary-white uppercase text-sm p-2"
+              swipe 
+              direction={"up"} 
+              duration={1.5}
+              >
               More About Me
             </Link>
           </div>
