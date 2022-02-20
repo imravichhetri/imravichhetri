@@ -36,7 +36,7 @@ const Navigation = props => {
             <Link 
               to={nav.path} 
               className="cursor-pointer hover:text-secondary-white" 
-              cover 
+              swipe 
               direction={direction[Math.floor(Math.random() * 4)]} 
               duration={2}
               bg="
